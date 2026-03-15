@@ -15,6 +15,7 @@ arm_boost=1
 enable_uart=1
 # Fan configuration
 dtoverlay=gpio-fan,gpiopin=14 # <== Defaults to GPIO 12
+cooling_fan=1,low_temp=0,low_speed=255
 # Disable UART for Raspberry Pi 5 to avoid U-boot compatibility issue.
 [pi5]
 enable_uart=0
